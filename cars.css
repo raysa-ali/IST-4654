@@ -190,3 +190,21 @@ table img{
     height: 40px;
     width: auto;
   }
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    gap: 20px; 
+    justify-items: center; 
+    margin: 20px 0; 
+}
+.image-grid a {
+    text-align: center; 
+    text-decoration: none;
+    color: inherit; 
+}
+.image-grid img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 5px; 
+}
