@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Car Dealership of the World</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="cars.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <h1>Car Dealership of the World</h1>
+      </header>
+      <nav>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+
+            <li class="dropdown"><a href="northAmerica.html">North America</a>
+                <ul class="dropdown-content">
+                    <li><a href="ford.html">Ford</a></li>
+                    <li><a href="tesla.html">Tesla</a></li>
+                    <li><a href="chrysler.html">Chrysler</a></li>
+                </ul>
+            </li>
+            <li class="dropdown"><a href="european.html">European</a>
+                <ul class="dropdown-content">
+                    <li><a href="ferrari.html">Ferrari</a></li>
+                    <li><a href="bmw.html">BMW</a></li>
+                    <li><a href="mercedes.html">Mercedes</a></li>
+                </ul>
+            </li>
+            <li class="dropdown"><a href="asian.html">Asian</a>
+                <ul class="dropdown-content">
+                    <li><a href="toyota.html">Toyota</a></li>
+                    <li><a href="isuzu.html">Isuzu</a></li>
+                    <li><a href="hyundai.html">Hyundai</a></li>
+                </ul>
+            </li>
+           <li><a href="contact.html">Contact Us</a></li> 
+        </ul>
+      </nav>
+    <main>
+      <h2>History</h2>
+      <p>The Ford Motor Company was founded by Henry Ford on June 16, 1903, in Dearborn, Michigan. It is one of the largest automakers in the world, known for revolutionizing the 
+automotive industry with the introduction of assembly line production techniques, particularly with the Model T in 1908. Over the years, Ford has expanded its operations globally 
+and introduced various innovations in automotive technology. The company has a rich history that includes significant milestones such as the establishment of the Lincoln
+ Motor Company in 1919 and the introduction of the 40-hour workweek in 1914, which set a precedent for labor practices in the industry</p>
+
+      <h2>Products</h2>
+      <table>
+        <tr>
+        <!-- Vehicle Name -->    
+            <th>Bronco</th>
+            <th>Mustang</th>
+            <th>Expedition</th>
+            <th>F-250 Truck</th>
+        </tr>
+        <tr>
+            <!-- Vehicle Image -->   
+            <td><img src="bronco.jpeg" alt="Ford Bronco" style="width: 450px;"></td>
+            <td><img src="mustang.jpeg" alt="Ford Mustang" style="width: 450px;"></td>
+            <td><img src="expedition.jpeg" alt="Ford Expedition" style="width: 450px;"></td>
+            <td><img src="ford f250.jpeg" alt="Ford F250 Truck" style="width: 450px;"></td>
+        </tr>
+        <tr>
+            <!-- Vehicle Price -->   
+            <td>$37,000</td>
+            <td>$35,000</td>
+            <td>$60,000</td>
+            <td>$65,000</td>
+        </tr>
+        <tr>
+            <!-- Vehicle features -->   
+            <td>The Ford Bronco is an off-road vehicle built for severe off-roading. 
+It is a model line of sport utility vehicles manufactured and marketed by Ford. 
+The Bronco is a truck-based SUV that's designed for off-roading, with four-wheel 
+drive, plenty of ground clearance, and many available hardware add-ons to keep you moving
+ over rough terrain. Unlike its smaller brother Bronco Sport, Ford offered the 
+Bronco with a choice of two or four doors. Ford describes the Bronco as a vehicle with the
+ “toughness of an F-Series and the spirit of a Mustang”. </td>
+            <td>The Ford Mustang lineup features 9 trims, including the new Dark Horse™ and Dark Horse™ Premium. 
+You can choose from various engine options, such as the 2.3L EcoBoost® and 5.0L Ti-VCT V8 engines,
+ paired with either a TREMEC® 6-Speed Manual or a 10-speed automatic transmission. The Mustang is known for its V8 power, 
+grippy handling, and modern technology features, making it a strong contender in the performance coupe market. For detailed
+ specifications, including dimensions and cargo space, you can refer to sources like MotorTrend.</td>
+            <td>The Ford Expedition is a spacious SUV designed for families, offering seating for up to eight passengers 
+and a large cargo area. It is available in several trims, including Active, Platinum, Tremor, and King Ranch. This model
+ features a powerful engine, high towing capacity, and various modern amenities, making it a great choice for those needing 
+versatility and comfort.</td>
+            <td>The Ford F-250 Super Duty is a heavy-duty truck known for its impressive towing and payload capabilities,
+ making it a top contender in the pickup market. It features a rugged design, advanced technology, and a comfortable interior,
+ with options for various engine specifications to suit different needs. Overall, it combines strength, 
+reliability, and modern technology, making it a strong choice for those in need of a powerful truck.</td>
+        </tr>
+    </table>
+    </main>
+    
+<!-- Find the logo of your company and put it as the two images. Then replace the hyperlinks for the comapny's site. This will allow you to click on the logo and go to their page -->
+    <div class="footer-row">
+        <a href="https://www.ford.com" target="_blank">
+            <img src="Ford-Motor-Company-Logo.jpeg" alt="Ford Logo Left" class="footer-logo">
+        </a>
+        
+        <div class="footer-info">
+          <small><i>Copyright &copy; 2025 Ford Motor Company</i></small><br>
+          <small><a href="index10.html">FordMotorCompany.com</a></small>
+        </div>
+      
+        <a href="https://www.ford.com" target="_blank">
+            <img src="Ford-Motor-Company-Logo.jpeg" alt="Ford Logo Left" class="footer-logo">
+        </a>
+      </div>
+    
+  </div>
+  </body>
+</html>
